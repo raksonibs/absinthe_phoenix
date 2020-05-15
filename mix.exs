@@ -47,7 +47,7 @@ defmodule Absinthe.Phoenix.Mixfile do
       {:decimal, "~> 1.0"},
       {:phoenix_pubsub, "~> 2.0"},
       {:phoenix, "~> 1.5.0"},
-      {:phoenix_html, "~> 2.13", optional: true},
+      {:phoenix_html, "~> 2.11", optional: true},
       {:ex_doc, "~> 0.14", only: :dev},
       {:jason, "~> 1.0", only: [:dev, :test]}
     ]
